@@ -1,0 +1,21 @@
+label {
+    display: inline-block;
+    width: 170px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12pt;
+    margin: 5px;
+    padding-left: 5px;
+    color: #09a;
+
+}
+
+div#options {
+    margin: 10px;
+    margin-left: 150px;
+    position: absolute; /* changed from relative */
+    top: 154px; /* changed from -166px */
+}
+
+tr:nth-child(even) {
+    background-color: #c0c0c0;
+}

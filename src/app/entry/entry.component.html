@@ -1,0 +1,15 @@
+<div>
+  <label>Student Number</label><input type="text" [(ngModel)] = "studNo"><br>
+  <label>Student First Name</label><input type="text" [(ngModel)] = "studFname"><br>
+  <label>Student Last Name</label><input type="text" [(ngModel)] = "studLname"><br>
+  <label>Student Program</label><input type="text" [(ngModel)] = "studProg"><br>
+  <label>Student Year</label><input type="text" [(ngModel)] = "studYr"><br>
+  <add-entry [studNo1] = 'studNo'
+            [studFname1] = 'studFname'
+            [studLname1] = 'studLname'
+            [studProg1] = 'studProg'
+            [studYr1] = 'studYr'
+            (clear) = "clearStud($event)"
+            (displayMessage) = "display()"
+            (studCollect) = "display()"></add-entry>
+</div>

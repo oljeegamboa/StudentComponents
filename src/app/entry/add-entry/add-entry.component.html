@@ -1,0 +1,9 @@
+<div id="options">
+  <button id="addStudents" (click)="addStudentEntry()">
+    Add Student Entry 
+  </button>
+  <list-entry [errorMessage] = 'messages'
+              [studRecord] = 'studentRecord'
+              (displayError) = "displayErr($event)"
+              (displayCollection) = "displayCollect($event)"></list-entry>
+</div>
